@@ -35,18 +35,62 @@ a {
     margin-right: auto;
     display: block;
     text-decoration: none;
+    margin-top: 30px;
 }
 
-.projects {
-    display: block;
-    width: 140px;
-    height: 35px;
-    border-radius: 2px;
-    background-color: inherit;
-    border: 1px solid black;
-    text-align: center;
+.line {
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
+    margin-top: 30px;
+    width: 40%;
+    height: 1px;
+    background-color: #eee;
+    background: -webkit-gradient(linear, 50% 50%, 50% 0, from(white), to(white), color-stop(50%, #CCCDCE));
+}
+
+.social {
+    margin-top: 50px;
+    text-align: center;
+    list-style: none;
+}
+
+ul {
+    margin-left: -30px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li button {
+    border-radius: 50px;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
+.github {
+    background-color: #75D8CB;
+}
+
+.github i {
+    color: white;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.facebook i {
+    color: white;
+}
+
+.gmail {
+    background-color: #c71610;
+}
+
+.gmail i {
+    color: white;
 }
