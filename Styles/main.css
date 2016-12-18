@@ -1,0 +1,20 @@
+.main {
+    background-color: #f7fafc;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#titles {
+    text-align: center;
+    font-weight: thin;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.name {
+    color: #4A606D;
+    font-size: 59px;
+    margin-top: 180px;
+}
