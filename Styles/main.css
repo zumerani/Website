@@ -14,7 +14,39 @@
 }
 
 .name {
-    color: #4A606D;
+    color: #47b2e8;
     font-size: 59px;
     margin-top: 180px;
+}
+
+.description {
+    color: #4A606D;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+a {
+    color: #fcdd7c;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+}
+
+.projects {
+    display: block;
+    width: 140px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: inherit;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
 }
