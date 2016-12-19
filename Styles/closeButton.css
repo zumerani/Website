@@ -24,3 +24,19 @@
 .close:after {
   transform: rotate(-45deg);
 }
+
+/* Media Queries */
+
+@media( max-width: 470px ) {
+    .close:before, .close:after {
+        left: 5%;
+        top: 3%;
+    }
+}
+
+@media( max-width: 400px ) {
+    .close:before, .close:after {
+        left: 5%;
+        top: 3%;
+    }
+}
