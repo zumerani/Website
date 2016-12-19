@@ -98,3 +98,25 @@ li button {
 .gmail i {
     color: white;
 }
+
+.modal-content {
+    height: 100%;
+    text-align: center;
+}
+
+#projects {
+    width: 47%;
+    height: 70%;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+.projectPhotos {
+    text-align: center;
+    width: 98%;
+    height: 90%;
+}
