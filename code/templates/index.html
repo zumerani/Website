@@ -13,11 +13,11 @@
         <!-- Icons -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <!-- Close Button CSS -->
-        <link rel="stylesheet" href="Styles/closeButton.css">
+        <link rel="stylesheet" href='{{ url_for('static', filename='closeButton.css') }}'>
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="Styles/animate.css">
+        <link rel="stylesheet" href='{{ url_for('static', filename='animate.css') }}'>
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="Styles/main.css">
+        <link rel="stylesheet" href='{{ url_for('static', filename='main.css') }}'>
     </head>
 
     <body>
@@ -69,13 +69,13 @@
                     <a href="http://www.scusiggraph.org" target="_blank">
                         <div id="projects">
                             SCU Siggraph Website <br />
-                            <img class="projectPhotos" src="Images/Siggraph.png">
+                            <img class="projectPhotos" src='{{ url_for('static', filename='Siggraph.png') }}'>
                         </div>
                     </a>
 
                     <div id="projects">
                         HackingEDU Website
-                        <img class="projectPhotos" src="Images/HackingEDU.png">
+                        <img class="projectPhotos" src='{{ url_for('static', filename='HackingEDU.png') }}'>
                     </div>
 
                 </div>
@@ -89,7 +89,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous">
     </script>
-    <script src="Scripts/animatedModal.js"></script>
+    <script src='{{ url_for('static', filename='animatedModal.js') }}'></script>
 
     <script>
         $("#demo01").animatedModal();
