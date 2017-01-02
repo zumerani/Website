@@ -1,11 +1,13 @@
 #!/bin/sh
 
-# In order to host the content on your local machine, you need
-# Python and pip on your machine.
+# Purpose of script: To help install the right dependencies easily.
 
-# Installation of virtualenv (this sets up a virtual environment to avoid
-# the site crashing due to old libraries).
-port=5000
+# Instructions:
+# 1. Follow the directions regarding 'virtualenv' on the README.
+# 2. Execute this script (make sure you set your permissions correctly).
+
+port=5000 #Port number to host site. Change to any other port if you wish.
+
 echo "Installing the appropriate libraries ..."
 pip install -r requirements.txt
 echo "Server running at port $port";
