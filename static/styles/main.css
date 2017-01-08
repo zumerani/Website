@@ -99,6 +99,10 @@ li button {
     color: white;
 }
 
+.closeButtonLink:hover {
+    cursor: pointer;
+}
+
 .modal-content {
     height: 100%;
     text-align: center;
@@ -106,7 +110,7 @@ li button {
 
 #projects {
     width: 47%;
-    height: 70%;
+    height: 60%;
     //border: 1px solid black;
     display: inline-block;
     border-radius: 5px;
@@ -117,6 +121,14 @@ li button {
     color: black;
     font-size: 22px;
 }
+
+/*.projectLink {
+    text-decoration: none;
+}
+
+.projectLink:hover {
+    text-decoration: none;
+}*/
 
 .projectPhotos {
     text-align: center;
