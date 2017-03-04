@@ -30,8 +30,8 @@
                 Resumé
             </a>
 
-            <a target="_blank" href="{{ url_for('static', filename='ENGL 181 Cover Letter.pdf') }}" class="projectLink" > <!-- id="demo01" href="#animatedModal" -->
-                Cover Letter
+            <a class="projectLink" id="demo01" href="#animatedModal"> <!-- id="demo01" href="#animatedModal" -->
+                About Me
             </a>
 
             <audio controls class="projectLink">
@@ -70,13 +70,13 @@
             </div>
 
             <!--Projects Window-->
-            <div id="animatedModal">
+            <div style="text-align: center;" id="animatedModal">
 
                 <div class="close-animatedModal">
                     <div class="close"></div>
                 </div>
 
-                <div class="modal-content">
+                <!-- <div class="modal-content">
 
                         <div id="projects">
                             SCU Siggraph Website <br />
@@ -93,7 +93,18 @@
                         </div>
                     </a>
 
-                </div>
+                </div> -->
+
+                <img style="margin-top:100px;width:200px;height:200px;border-radius:100px;margin-left:auto;margin-right:auto" src="{{ url_for('static', filename='images/zain.jpg') }}">
+
+                <h2 style="font-family:'Source Sans Pro',sans-serif; text-align:center;">Zain Umerani</h2>
+
+                <h2 style="padding: 15px;font-family:'Source Sans Pro',sans-serif; text-align:center;">Hello! My name is Zain Umerani and I am a
+                junior studying Computer Science and Engineering. My interests are on the full-stack side of things. I love to
+            build products from the ground up and have worked on several products related to full-stack development. One project
+        that I am proud of is the SCU SIGGRAPH project, where I helped build a website for a computer graphics club that a friend
+    and I cofounded last year. I believe that I've gained a tremendous amount of knowledge in full-stack web development and am ready to
+apply my skills as an intern this summer. </h2>
 
             </div> <!-- End of id 'animatedModal' -->
 

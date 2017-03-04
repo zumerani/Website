@@ -149,6 +149,10 @@ li button {
     margin-right: auto;
 }
 
+.title {
+    color: red;
+}
+
 /*.documents ul {
     margin-left: auto;
     margin-right: auto;
